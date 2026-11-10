@@ -44,3 +44,14 @@ e o valor fica sendo o ultimo usado nessa estrutura.
 >Local:
 Ela é criada dentro de uma estrutura. Ela vale somente naquela estrutura e
 se em u  outro nivel(dentro de um if) ela ser utilizada, ela escapa porém pode reutilizada
+
+# funções [def]
+-> é um objeto guardado numa variavel, que contem um bloco de codigo ainda não executado.
+quando voce a chama, o python cria um espaço de nomes novos e temporarios.
+[def] -> palavra-chave que inicia a declaração da função.
+[nome_funcao] -> identificador - utilizando o padrão """snake_case"""
+[parametros] -> dados de entrada entre parêmtesses.
+[argumentos] -> Valores que ocupam o lugar dos parâmetros.
+[docstring] -> documentação entre aspas duplas.
+[corpo] -> bloco identado contendo a logica da função.
+[return] -> valor retornado, se a def não tiver o return, o padrão é none.
